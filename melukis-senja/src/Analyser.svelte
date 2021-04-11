@@ -97,7 +97,7 @@
     const CANVAS_HEIGHT = canvas.height
 
     drawImage({
-      src: 'https://dl.dropboxusercontent.com/s/7f8koibmcjds5l6/bg.jpg',
+      src: 'bg.jpg',
       ctx: ctx,
       width: CANVAS_WIDTH,
       height: CANVAS_HEIGHT,
