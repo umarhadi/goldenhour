@@ -75,7 +75,7 @@
     {#if isShowCredit}
       <p>
         <span>Song by {songTitle}</span>
-        <a href="https://blog.umarhadi.xyz">@umarhadi</a>
+        <a href="https://umarhadi.xyz">@umarhadi</a>
       </p>
     {/if}
   </div>
