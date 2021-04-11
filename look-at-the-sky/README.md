@@ -1,17 +1,11 @@
-# Look at the Sky
-
-- Permintaan terhadap gambar latar belakang hanya 1x
-- Lirik menggunakan berkas `Porter Robinson - Look at the Sky.txt` dan tidak dilakukan secara manual lagi :)
-- Refactor kecil untuk membuat kode menjadi lebih mudah dimengerti
-
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/umarhadi/look-at-the-sky&amp;stack=cms"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
+# look-at-the-sky
 
 Music by [Porter Robinson - Look at the Sky](https://www.youtube.com/watch?v=TJBh_hj6DzE). Please buy this song on [iTunes](https://music.apple.com/id/album/look-at-the-sky/1550626757?i=1550626760) if you like it!
 
-[![Screenshot](https://dl.dropboxusercontent.com/s/zatjbmytd1o1k6h/1611741422368.png)](https://lats.umarhadi.xyz)
+[![Screenshot](https://ik.imagekit.io/umarhadi/goldenhour/Screen_Shot_2021-04-11_at_23.18.29_GmOx9H0Dd.png)](https://lats.gh.umarhadi.xyz)
 
 <p align="center">
-  https://lats.umarhadi.xyz
+  https://lats.gh.umarhadi.xyz
 </p>
 
 ---
