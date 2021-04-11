@@ -5,10 +5,10 @@
   
     let lyrics = []
     let isShowCredit = false
-    let totalDuration = 6 * 60 - 3
+    let totalDuration = 4 * 60 - 3
     let currentTime = 0
     let determinedIndex = 0
-    let songTitle = 'Pamungkas - To the Bone'
+    let songTitle = 'Justin Bieber - Anyone'
   
     function constructLyrics(rawLyrics) {
       const parsedLyrics = rawLyrics.split('\n')
@@ -75,7 +75,7 @@
       {#if isShowCredit}
         <p>
           <span>Song by {songTitle}</span>
-          <a href="https://github.com/umarhadi/to-the-bone">@umarhadi</a>
+          <a href="https://github.com/umarhadi/goldenhour">@umarhadi</a>
         </p>
       {/if}
     </div>
