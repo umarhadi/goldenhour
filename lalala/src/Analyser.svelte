@@ -183,7 +183,8 @@
 <div>
   {#if showPlayButton}
     <div class="o-lyrics">
-      <p>click button below to play</p>
+      click button below to play<br>
+      <p>
       <button on:click={start}> play </button>
     </div>
   {/if}
