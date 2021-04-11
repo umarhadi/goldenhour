@@ -11,5 +11,7 @@ Music by [Justin Bieber - Anyone](https://www.youtube.com/watch?v=KIK3azN4w34). 
 ---
 
 <div align="center">
+
   Powered by [Svelte](https://svelte.dev) hosted on [Vercel](https://vercel.com)
+  
 </div>
