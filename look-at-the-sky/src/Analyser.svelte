@@ -56,11 +56,11 @@
 
     if (target.requestFullscreen) {
       target.requestFullscreen()
-    } else if (elem.webkitRequestFullscreen) {
+    } else if (target.webkitRequestFullscreen) {
       target.webkitRequestFullscreen()
-    } else if (elem.mozRequestFullScreen) {
+    } else if (target.mozRequestFullScreen) {
       target.mozRequestFullScreen()
-    } else if (elem.msRequestFullscreen) {
+    } else if (target.msRequestFullscreen) {
       target.msRequestFullscreen()
     }
 
