@@ -97,7 +97,7 @@
       const CANVAS_HEIGHT = canvas.height
   
       drawImage({
-        src: 'bg.jpg',
+        src: 'zac-ong-JHN1-mpgXjo-unsplash.jpg',
         ctx: ctx,
         width: CANVAS_WIDTH,
         height: CANVAS_HEIGHT,
@@ -112,7 +112,7 @@
         const y = CANVAS_HEIGHT - height
   
         drawBar({
-          color: '#FE7747',
+          color: '#b15331',
           ctx: ctx,
           x,
           y,
