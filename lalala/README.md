@@ -1,21 +1,17 @@
-# Look at the Sky
+# lalala
 
-- Permintaan terhadap gambar latar belakang hanya 1x
-- Lirik menggunakan berkas `Porter Robinson - Look at the Sky.txt` dan tidak dilakukan secara manual lagi :)
-- Refactor kecil untuk membuat kode menjadi lebih mudah dimengerti
+Music by [AREA21 - La La La](https://www.youtube.com/watch?v=R22S-jKLFzY). Please buy this song on [iTunes](https://music.apple.com/id/album/la-la-la/1560745920?i=1560746257) if you like it!
 
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/umarhadi/look-at-the-sky&amp;stack=cms"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
-
-Music by [Porter Robinson - Look at the Sky](https://www.youtube.com/watch?v=TJBh_hj6DzE). Please buy this song on [iTunes](https://music.apple.com/id/album/look-at-the-sky/1550626757?i=1550626760) if you like it!
-
-[![Screenshot](https://dl.dropboxusercontent.com/s/zatjbmytd1o1k6h/1611741422368.png)](https://lats.umarhadi.xyz)
+[![Screenshot](https://ik.imagekit.io/umarhadi/goldenhour/Screen_Shot_2021-04-11_at_23.05.30_G5wKjHUiQA.png)](https://lalala.gh.umarhadi.xyz)
 
 <p align="center">
-  https://lats.umarhadi.xyz
+  https://lalala.gh.umarhadi.xyz
 </p>
 
 ---
 
 <div align="center">
 
-Powered by [Svelte](https://svelte.dev) hosted on [Vercel](https://vercel.com)
+  Powered by [Svelte](https://svelte.dev) hosted on [Vercel](https://vercel.com)
+  
+</div>
