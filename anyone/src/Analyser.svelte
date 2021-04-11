@@ -107,12 +107,12 @@
       let x = 0
   
       frequencyData.map((_, index) => {
-        const height = frequencyData[index] / 1.4
-        const width = (CANVAS_WIDTH / bufferLength) * 1.2
+        const height = frequencyData[index] / 2.0
+        const width = (CANVAS_WIDTH / bufferLength) * 1.5
         const y = CANVAS_HEIGHT - height
   
         drawBar({
-          color: '#FE7747',
+          color: '#ffffff',
           ctx: ctx,
           x,
           y,
