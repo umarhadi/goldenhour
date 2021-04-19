@@ -5,7 +5,7 @@
   
     let lyrics = []
     let isShowCredit = false
-    let totalDuration = 6 * 60 - 3
+    let totalDuration = 5 * 60 + 37
     let currentTime = 0
     let determinedIndex = 0
     let songTitle = 'Pamungkas - To the Bone'
@@ -58,7 +58,7 @@
     }
   
     function showCredit() {
-      document.getElementsByTagName('canvas')[0].style.filter = 'blur(5px)'
+      document.getElementsByTagName('canvas')[0].style.filter = 'blur(1px)'
   
       setTimeout(() => {
         isShowCredit = true
@@ -75,7 +75,7 @@
       {#if isShowCredit}
         <p>
           <span>Song by {songTitle}</span>
-          <a href="https://github.com/umarhadi/to-the-bone">@umarhadi</a>
+          <a href="https://github.com/umarhadi/goldenhour/tree/master/to-the-bone">@umarhadi</a>
         </p>
       {/if}
     </div>

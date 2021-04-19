@@ -102,7 +102,7 @@
         width: CANVAS_WIDTH,
         height: CANVAS_HEIGHT,
       })
-      canvas.style.filter = 'blur(4px)'
+      canvas.style.filter = 'blur(10px)'
   
       let x = 0
   
