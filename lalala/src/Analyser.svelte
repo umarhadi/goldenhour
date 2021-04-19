@@ -106,7 +106,7 @@
     let x = 0
 
     frequencyData.map((_, index) => {
-      const height = frequencyData[index] / 1.4
+      const height = frequencyData[index] / 1
       const width = (CANVAS_WIDTH / bufferLength) * 1.0
       const y = CANVAS_HEIGHT - height
 

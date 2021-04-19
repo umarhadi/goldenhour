@@ -5,7 +5,7 @@
 
   let lyrics = []
   let isShowCredit = false
-  let totalDuration = 3 * 60 - 3
+  let totalDuration = 2 * 60 + 38
   let currentTime = 0
   let determinedIndex = 0
   let songTitle = 'AREA21 - La La La'
@@ -58,7 +58,7 @@
   }
 
   function showCredit() {
-    document.getElementsByTagName('canvas')[0].style.filter = 'blur(5px)'
+    document.getElementsByTagName('canvas')[0].style.filter = 'blur(10px)'
 
     setTimeout(() => {
       isShowCredit = true
@@ -75,7 +75,7 @@
     {#if isShowCredit}
       <p>
         <span>Song by {songTitle}</span>
-        <a href="https://umarhadi.xyz">@umarhadi</a>
+        <a href="https://github.com/umarhadi/goldenhour/tree/master/lalala">@umarhadi</a>
       </p>
     {/if}
   </div>
