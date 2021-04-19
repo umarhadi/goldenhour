@@ -58,7 +58,7 @@
   }
 
   function showCredit() {
-    document.getElementsByTagName('canvas')[0].style.filter = 'blur(5px)'
+    document.getElementsByTagName('canvas')[0].style.filter = 'blur(1px)'
 
     setTimeout(() => {
       isShowCredit = true
@@ -69,13 +69,13 @@
 <div>
   <div class="o-lyrics">
     {#if lyrics.length > 0 && determinedIndex !== -1}
-      <h2>{lyrics[determinedIndex].text}</h2>
+      <h4>{lyrics[determinedIndex].text}</h4>
     {/if}
 
     {#if isShowCredit}
       <p>
         <span>Song by {songTitle}</span>
-        <a href="https://blog.umarhadi.xyz">@umarhadi</a>
+        <a href="https://github.com/umarhadi/goldenhour/tree/master/melukis-senja">@umarhadi</a>
       </p>
     {/if}
   </div>
