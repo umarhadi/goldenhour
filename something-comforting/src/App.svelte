@@ -5,7 +5,7 @@
 
   let lyrics = []
   let isShowCredit = false
-  let totalDuration = 4 * 60 - 3
+  let totalDuration = 4 * 60 + 27
   let currentTime = 0
   let determinedIndex = 0
   let songTitle = 'Porter Robinson - Something Comforting'
@@ -58,7 +58,7 @@
   }
 
   function showCredit() {
-    document.getElementsByTagName('canvas')[0].style.filter = 'blur(5px)'
+    document.getElementsByTagName('canvas')[0].style.filter = 'blur(10px)'
 
     setTimeout(() => {
       isShowCredit = true
@@ -75,7 +75,7 @@
     {#if isShowCredit}
       <p>
         <span>Song by {songTitle}</span>
-        <a href="https://umarhadi.xyz">@umarhadi</a>
+        <a href="https://github.com/umarhadi/goldenhour/tree/master/something-comforting">@umarhadi</a>
       </p>
     {/if}
   </div>
