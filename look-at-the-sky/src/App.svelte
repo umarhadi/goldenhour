@@ -5,7 +5,7 @@
 
   let lyrics = []
   let isShowCredit = false
-  let totalDuration = 5 * 60 - 3
+  let totalDuration = 5 * 60 + 8
   let currentTime = 0
   let determinedIndex = 0
   let songTitle = 'Porter Robinson - Look at the Sky'
@@ -75,7 +75,7 @@
     {#if isShowCredit}
       <p>
         <span>Song by {songTitle}</span>
-        <a href="https://umarhadi.xyz">@umarhadi</a>
+        <a href="https://github.com/umarhadi/goldenhour/tree/master/look-at-the-sky">@umarhadi</a>
       </p>
     {/if}
   </div>
