@@ -108,7 +108,7 @@
 
     frequencyData.map((_, index) => {
       const height = frequencyData[index] / 1.1
-      const width = (CANVAS_WIDTH / bufferLength) * 1.5
+      const width = (CANVAS_WIDTH / bufferLength) * 1.0
       const y = CANVAS_HEIGHT - height
 
       drawBar({

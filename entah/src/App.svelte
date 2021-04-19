@@ -5,10 +5,10 @@
 
   let lyrics = []
   let isShowCredit = false
-  let totalDuration = 4 * 60 - 3
+  let totalDuration = 4 * 60 - 13
   let currentTime = 0
   let determinedIndex = 0
-  let songTitle = 'DJ Snake - A Different Way (feat. Lauv)'
+  let songTitle = "Iwan Fals - Entah (feat. d'Masiv)"
 
   function constructLyrics(rawLyrics) {
     const parsedLyrics = rawLyrics.split('\n')
@@ -58,7 +58,7 @@
   }
 
   function showCredit() {
-    document.getElementsByTagName('canvas')[0].style.filter = 'blur(5px)'
+    document.getElementsByTagName('canvas')[0].style.filter = 'blur(0px)'
 
     setTimeout(() => {
       isShowCredit = true
@@ -75,7 +75,7 @@
     {#if isShowCredit}
       <p>
         <span>Song by {songTitle}</span>
-        <a href="https://blog.umarhadi.xyz">@umarhadi</a>
+        <a href="https://github.com/umarhadi/goldenhour/tree/master/entah">@umarhadi</a>
       </p>
     {/if}
   </div>
