@@ -102,12 +102,12 @@
       width: CANVAS_WIDTH,
       height: CANVAS_HEIGHT,
     })
-    canvas.style.filter = 'blur(3px)'
+    canvas.style.filter = 'blur(5px)'
 
     let x = 0
 
     frequencyData.map((_, index) => {
-      const height = frequencyData[index] / 2
+      const height = frequencyData[index] / 1.4
       const width = (CANVAS_WIDTH / bufferLength) * 1
       const y = CANVAS_HEIGHT - height
 
