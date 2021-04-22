@@ -191,5 +191,5 @@
 
   <canvas bind:this={canvasRef} />
   <!-- svelte-ignore a11y-media-has-caption -->
-  <audio bind:this={audioRef} src={audio} />
+  <audio bind:this={audioRef} src={audio}/>
 </div>
