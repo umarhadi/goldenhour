@@ -26,12 +26,12 @@ a:focus {
 
 .o-lyrics {
   box-sizing: border-box;
-  color: #282828;
+  color: #260c28;
   font-size: 16px;
   font-weight: bold;
   height: 200px;
   left: 0px;
-  text-align: center;
+  text-align: left;
   margin-top: -100px;
   padding: 1rem;
   position: fixed;
@@ -53,5 +53,5 @@ a:focus {
 }
 @font-face {
   font-family: 'Caveat';
-  src: url('https://fonts.gstatic.com/s/zillaslabhighlight/v10/gNMbW2BrTpK8-inLtBJgMMfbm6uNVDvRxitPaWHSSmlN.woff2') format('woff2');
+  src: url('https://fonts.gstatic.com/s/worksans/v9/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32KxfXBi8JoI3ZKyHaQQ.woff') format('woff2');
 }

@@ -102,7 +102,7 @@
       width: CANVAS_WIDTH,
       height: CANVAS_HEIGHT,
     })
-    canvas.style.filter = 'blur(5px)'
+    canvas.style.filter = 'blur(10px)'
 
     let x = 0
 
@@ -112,7 +112,7 @@
       const y = CANVAS_HEIGHT - height
 
       drawBar({
-        color: '#434343',
+        color: '#ffffff',
         ctx: ctx,
         x,
         y,
@@ -191,5 +191,5 @@
 
   <canvas bind:this={canvasRef} />
   <!-- svelte-ignore a11y-media-has-caption -->
-  <audio bind:this={audioRef} src={audio} controls=true />
+  <audio bind:this={audioRef} src={audio} />
 </div>

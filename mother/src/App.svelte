@@ -5,7 +5,7 @@
 
   let lyrics = []
   let isShowCredit = false
-  let totalDuration = 4 * 60 - 18
+  let totalDuration = 4 * 60 - 17
   let currentTime = 0
   let determinedIndex = 0
   let songTitle = 'Porter Robinson - Mother'
