@@ -5,7 +5,7 @@
 
   let lyrics = []
   let isShowCredit = false
-  let totalDuration = 3 * 60 + 49 
+  let totalDuration = 3 * 60 - 15 
   let currentTime = 0
   let determinedIndex = 0
   let songTitle = 'Porter Robinson - Sweet Time'

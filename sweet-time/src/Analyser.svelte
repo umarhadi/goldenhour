@@ -184,12 +184,12 @@
 <div>
   {#if showPlayButton}
     <div class="o-lyrics">
-      <p>click button below to play</p>
+      <p><small>hope you'll click the play button:)</small></p>
       <button on:click={start}> play </button>
     </div>
   {/if}
 
   <canvas bind:this={canvasRef} />
   <!-- svelte-ignore a11y-media-has-caption -->
-  <audio bind:this={audioRef} src={audio} controls=true/>
+  <audio bind:this={audioRef} src={audio}/>
 </div>
