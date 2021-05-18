@@ -5,7 +5,7 @@ Music by [Pamungkas - To the Bone](https://www.youtube.com/watch?v=oIYWenB637c).
 [![Screenshot](https://ik.imagekit.io/umarhadi/goldenhour/Screen_Shot_2021-04-11_at_23.57.52_sDfAHo1aY.png)](https://tothebone.gh.umarhadi.xyz)
 
 <p align="center">
-  https://tothebone.gh.umarhadi.xyz
+  https://bone.gh.umarhadi.xyz
 </p>
 
 ---
