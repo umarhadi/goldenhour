@@ -184,8 +184,8 @@
 <div>
   {#if showPlayButton}
     <div class="o-lyrics">
-      <p><small>hope you'll click the play button:)</small></p>
-      <button on:click={start}> play </button>
+      <p>&nbsp;</p>
+      <button class="neon-button" on:click={start}> play </button>
     </div>
   {/if}
 
