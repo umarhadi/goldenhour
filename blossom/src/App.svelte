@@ -58,7 +58,7 @@
   }
 
   function showCredit() {
-    document.getElementsByTagName('canvas')[0].style.filter = 'blur(3px)'
+    document.getElementsByTagName('canvas')[0].style.filter = 'blur(0px)'
 
     setTimeout(() => {
       isShowCredit = true
@@ -75,7 +75,7 @@
     {#if isShowCredit}
       <p>
         <span>Song by {songTitle}</span>
-        <a href="https://github.com/umarhadi/goldenhour/tree/master/blossom">@umarhadi</a>
+        <a href="https://github.com/umarhadi/blossom">@umarhadi</a>
       </p>
     {/if}
   </div>

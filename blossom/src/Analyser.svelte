@@ -102,7 +102,7 @@
       width: CANVAS_WIDTH,
       height: CANVAS_HEIGHT,
     })
-    canvas.style.filter = 'blur(10px)'
+    canvas.style.filter = 'blur(7px)'
 
     let x = 0
 
@@ -191,5 +191,5 @@
 
   <canvas bind:this={canvasRef} />
   <!-- svelte-ignore a11y-media-has-caption -->
-  <audio bind:this={audioRef} src={audio} />
+  <audio bind:this={audioRef} src={audio} controls=true/>
 </div>
