@@ -5,7 +5,7 @@ Music by [Porter Robinson - Look at the Sky](https://www.youtube.com/watch?v=TJB
 [![Screenshot](https://ik.imagekit.io/umarhadi/goldenhour/Screen_Shot_2021-04-11_at_23.18.29_GmOx9H0Dd.png)](https://lats.gh.umarhadi.xyz)
 
 <p align="center">
-  https://lats.gh.umarhadi.xyz
+  https://lats.gh.umarhadi.dev
 </p>
 
 ---

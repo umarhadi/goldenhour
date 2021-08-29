@@ -69,7 +69,7 @@
 <div>
   <div class="o-lyrics">
     {#if lyrics.length > 0 && determinedIndex !== -1}
-      <h2>{lyrics[determinedIndex].text}</h2>
+      <h4>{lyrics[determinedIndex].text}</h4>
     {/if}
 
     {#if isShowCredit}
