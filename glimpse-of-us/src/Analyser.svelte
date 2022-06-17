@@ -97,12 +97,12 @@
     const CANVAS_HEIGHT = canvas.height
 
     drawImage({
-      src: 'bg.jpeg',
+      src: 'zoe-LUktfhmhkIE-unsplash.jpg',
       ctx: ctx,
       width: CANVAS_WIDTH,
       height: CANVAS_HEIGHT,
     })
-    canvas.style.filter = 'blur(20px)'
+    canvas.style.filter = 'blur(10px)'
 
     let x = 0
 
@@ -112,7 +112,7 @@
       const y = CANVAS_HEIGHT - height
 
       drawBar({
-        color: '#FE7747',
+        color: '#FFFFFF',
         ctx: ctx,
         x,
         y,
@@ -184,7 +184,7 @@
 <div>
   {#if showPlayButton}
     <div class="o-lyrics">
-      😔<br>
+      glimpse of us<br>
       <p>
       <button on:click={start}> play </button>
     </div>
@@ -192,5 +192,5 @@
 
   <canvas bind:this={canvasRef} />
   <!-- svelte-ignore a11y-media-has-caption -->
-  <audio bind:this={audioRef} src={audio} />
+  <audio bind:this={audioRef} src={audio}/>
 </div>

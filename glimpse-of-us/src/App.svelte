@@ -5,10 +5,10 @@
 
   let lyrics = []
   let isShowCredit = false
-  let totalDuration = 2 * 60 + 38
+  let totalDuration = 4 * 60 - 12
   let currentTime = 0
   let determinedIndex = 0
-  let songTitle = 'AREA21 - La La La'
+  let songTitle = 'Joji - Glimpse of Us'
 
   function constructLyrics(rawLyrics) {
     const parsedLyrics = rawLyrics.split('\n')
