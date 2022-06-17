@@ -3,7 +3,7 @@
 
 ```bash
 $ git clone https://github.com/umarhadi/goldenhour
-$ cd folder-yang-diinginkan
+$ cd whatever-you-choose
 $ yarn
 $ yarn dev
 ```
