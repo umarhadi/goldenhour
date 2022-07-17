@@ -75,7 +75,7 @@
     {#if isShowCredit}
       <p>
         <span>Song by {songTitle}</span>
-        <a href="https://github.com/umarhadi/goldenhour/tree/master/glimpse-of-us">@umarhadi</a>
+        <a href="https://github.com/umarhadi/goldenhour/tree/master/everything-goes-on">@umarhadi</a>
       </p>
     {/if}
   </div>
